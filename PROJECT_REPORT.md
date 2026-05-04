@@ -1,15 +1,5 @@
 # SheGuard - Android Safety Application
 
-## Project Report
-
----
-
-### Submitted By: [Student Name]
-### Roll No: [Roll Number]
-### Department: Computer Science & Engineering
-### Academic Year: 2025-2026
-### Institution: [College Name]
-
 ---
 
 ## Abstract
