@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sheguard_primary">#B42318</color>
+    <color name="sheguard_primary_dark">#7A1611</color>
+    <color name="sheguard_accent">#FF6B57</color>
+    <color name="sheguard_surface">#FFF7F2</color>
+    <color name="sheguard_surface_alt">#FFF1E9</color>
+    <color name="sheguard_card">#FFFFFFFF</color>
+    <color name="sheguard_text">#1F2937</color>
+    <color name="sheguard_text_muted">#6B7280</color>
+    <color name="sheguard_success">#0F9D58</color>
+    <color name="sheguard_warning">#D97706</color>
+    <color name="sheguard_border">#F2D1C7</color>
+    <color name="sheguard_gradient_start">#FFF8F3</color>
+    <color name="sheguard_gradient_end">#FFE2D6</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>

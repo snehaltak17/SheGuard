@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "790582591206",
+    "firebase_url": "https://she-guard-96245-default-rtdb.firebaseio.com",
+    "project_id": "she-guard-96245",
+    "storage_bucket": "she-guard-96245.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790582591206:android:7d320082f400c5433a4527",
+        "android_client_info": {
+          "package_name": "com.sheguard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoxjBcwTVLRlog_VM5ohGpb8B7wjiMCSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

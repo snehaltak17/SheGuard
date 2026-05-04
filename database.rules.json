@@ -1,0 +1,38 @@
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null",
+    "zones": {
+      ".read": "auth != null",
+      "$zoneId": {
+        ".write": "auth != null && auth.token.email === 'admin@shegurd.com'"
+      }
+    },
+    "tracking": {
+      "$userId": {
+        ".read": "auth != null && auth.token.email === 'admin@shegurd.com'",
+        ".write": "auth != null && auth.uid === $userId"
+      }
+    },
+    "zoneHistory": {
+      "$userId": {
+        ".read": "auth != null && (auth.token.email === 'admin@shegurd.com' || auth.uid === $userId)",
+        "$historyId": {
+          ".write": "auth != null && auth.uid === $userId"
+        }
+      }
+    },
+    "sosEvents": {
+      ".read": "auth != null && auth.token.email === 'admin@shegurd.com'",
+      "$eventId": {
+        ".write": "auth != null"
+      }
+    },
+    "users": {
+      "$userId": {
+        ".read": "auth != null && (auth.uid === $userId || auth.token.email === 'admin@shegurd.com')",
+        ".write": "auth != null && auth.uid === $userId"
+      }
+    }
+  }
+}
